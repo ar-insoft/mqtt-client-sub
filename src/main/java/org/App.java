@@ -27,7 +27,7 @@ public class App
 				}
 			});
 
-			String[] topics = {"js/test/1", "AU_2018/PLC_TwinSAFE/TcIotCommunicator/Json/Tx/Data"};
+			String[] topics = {"js/test/1", "AU_2018/PLC_TwinSAFE/TcIotCommunicator/#"}; //Json/Tx/Data
 
 			sub.connect();
 			sub.client().subscribe(topics);
